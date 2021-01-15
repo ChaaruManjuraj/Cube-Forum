@@ -16,6 +16,7 @@ nav {
 .btn-login, .btn-reg {
   border: 1px solid black;
   margin-left: 1rem;
+  text-decoration: none;
 }
 
 .navbar-nav {
@@ -47,7 +48,93 @@ nav {
   margin-top: 2rem;
 }
 
+#alert-justRegistered {
+  margin-bottom: 0;
+  display: none;
+}
+
 /* Register */
 .reg-container {
   margin-top: 2%;
+}
+
+#alert-reg {
+  margin-bottom: 0;
+  display: none;
+}
+
+/* Home */
+#logout {
+  display: none;
+}
+
+.greeting-container {
+  text-align: left;
+  margin: 1rem;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.greeting-text {
+  font-size: 25px;
+}
+
+.btn-toggler {
+  margin-top: 0;
+  border: 1px solid black;
+}
+
+#alert-postInserted, #alert-postNotInserted {
+  display: none;
+}
+
+/* Text-Editor */
+
+.rich-text {
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid rgb(184, 177, 177);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  min-height: 300px;
+}
+
+#post-title {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.dropdown {
+  text-align: left;
+  margin-top: 1rem;
+  margin-left: 10%;
+}
+
+.post-btn {
+  border: 0.5px solid black;
+}
+
+/* Posts */
+#post-container {
+  text-align: left;
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#created-by {
+  margin-left: 10%;
+  font-style: italic;
+}
+
+.post-content {
+  padding: 1rem;
+}
+
+#likeBtn {
+  width: 7%;
+  border: 1px solid black;
 }
