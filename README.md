@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Steps to run the project
+
+1. Install _npm@latest_; **I've used 6.14.11**
+
+1. Install _npx_ from _npm_; 
+
+1. Install all the dependencies mentioned below
+    1. "@testing-library/jest-dom": "^5.11.4",
+    1. "@testing-library/react": "^11.1.0",
+    1. "@testing-library/user-event": "^12.1.10",
+    1. **"axios": "^0.21.1",**
+    1. **"draft-js": "^0.11.7",**
+    1. **"draftjs-to-html": "^0.9.1",**
+    1. **"html-to-draftjs": "^1.5.0",**
+    1. **"react": "^17.0.1",**
+    1. **"react-dom": "^17.0.1",**
+    1. **"react-draft-wysiwyg": "^1.14.5",**
+    1. **"react-router-dom": "^5.2.0",**
+    1. "react-scripts": "4.0.1",
+    1. "web-vitals": "^0.2.4" 
+    
+1.  _npm start_ to run it on _localhost:3000_ (if unavailable, prompt to next available port)
+
+1. Run a PHP server in the background
+
+1. Import the _Cube-Form.sql_ from _/Database_ dir to MySQL localhost server
